@@ -1,5 +1,6 @@
 let display = GAME_ZIP64.createZIP64Display()
 display.clear()
+display.setBrightness(10)
 display.setMatrixColor(1, 1, GAME_ZIP64.colors(ZipLedColors.Red))
 display.setMatrixColor(5, 5, GAME_ZIP64.colors(ZipLedColors.Green))
 display.show()
